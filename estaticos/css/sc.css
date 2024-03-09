@@ -1,0 +1,10 @@
+aside{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+aside h2{
+    text-align: center;
+    justify-content: center;
+    margin-top: 250px;
+}

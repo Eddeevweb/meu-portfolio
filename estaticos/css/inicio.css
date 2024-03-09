@@ -1,0 +1,83 @@
+aside{
+    display: flex;
+    flex-direction: row;
+}
+
+aside img{
+    width: 600px;
+    justify-self: center;
+    align-self: center;
+    right: 0;
+}
+.contentaside{
+    display: block;
+    align-items: center;
+    max-width: 60%;
+    margin: auto 0;
+}
+
+.contentaside1{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-self: center;
+}
+
+.contentaside h1{
+    font-size: 40px;
+    margin: 10px;
+    font-weight: 400;
+    
+    margin-bottom: 40px;
+}
+.contentaside h1 #nome{
+    color: #77C8EC;
+    font-weight: 600;
+}
+.contentaside h2{
+    margin:20px 10px;
+}
+
+#descri{
+    margin:20px 10px;
+    color: #77C8EC;
+}
+
+#divnoticias{
+    text-align: center;
+}
+
+.ctt{
+    display: flex;
+    margin: 20px;
+    justify-content: space-around;
+}
+
+.ctt a{
+    color: white;
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.btnwtt{
+    background-color: green;
+}
+.btnwtt:hover{
+    background-color: rgb(16, 163, 16);
+}
+
+.btnemail{
+    background-color: rgb(126, 5, 5);
+}
+.btnemail:hover{
+    background-color: rgb(151, 24, 24);
+}
+
+.btncall{
+    background-color: #77C8EC;
+}
+.btncall:hover{
+    background-color: rgba(119, 200, 236, 0.8);
+}
